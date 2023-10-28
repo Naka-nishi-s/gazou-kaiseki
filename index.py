@@ -11,3 +11,6 @@ cv2.waitKey(0)
 
 # finish all window
 cv2.destroyAllWindows()
+
+# save any place
+cv2.imwrite('sample.jpg', image)
